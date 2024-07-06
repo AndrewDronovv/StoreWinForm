@@ -8,22 +8,19 @@ namespace StoreWinFrom
 
     public partial class LoginForm : Form
     {
-        AppDbContext appDbContext;
-        List<Employee> employeeList;
-        MainForm mainForm = new MainForm();
-        public LoginForm()
+        private readonly AppDbContext _context;
+        public LoginForm(AppDbContext context)
         {
+            
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
-
+            _context = context;
         }
         private void LoginForm_Load(object sender, EventArgs e)
         {
-            appDbContext = new AppDbContext();
             txtPasswordInput.PasswordChar = '*';
             txtLoginInput.MaxLength = 50;
             txtPasswordInput.MaxLength = 50;
-
         }
         private void btnEscapeLogForm_Click(object sender, EventArgs e)
         {
@@ -35,6 +32,22 @@ namespace StoreWinFrom
             else
             {
                 this.Show();
+            }
+        }
+
+        private void btnEnterLogForm_Click(object sender, EventArgs e)
+        {
+            var username = txtLoginInput.Text;
+            var password = txtPasswordInput.Text;
+
+            var isEmployeeExist = _context.Employees.Any(u => u.Username == username && u.Password == password);
+            if (isEmployeeExist)
+            {
+                new MainForm().Show();
+            }
+            else
+            {
+                MessageBox.Show("Неверный пароль");
             }
         }
     }

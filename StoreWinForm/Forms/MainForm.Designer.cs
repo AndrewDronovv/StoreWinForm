@@ -35,6 +35,7 @@
             btnCatalogMForm = new Button();
             btnUserMForm = new Button();
             btnBasketMForm = new Button();
+            panelBody = new Panel();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -79,6 +80,7 @@
             button1.TabIndex = 3;
             button1.Text = "Сотрудники";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // btnCatalogMForm
             // 
@@ -93,6 +95,7 @@
             btnCatalogMForm.TabIndex = 2;
             btnCatalogMForm.Text = "Каталог";
             btnCatalogMForm.UseVisualStyleBackColor = false;
+            btnCatalogMForm.Click += btnCatalogMForm_Click;
             // 
             // btnUserMForm
             // 
@@ -118,6 +121,13 @@
             btnBasketMForm.TabIndex = 2;
             btnBasketMForm.UseVisualStyleBackColor = false;
             // 
+            // panelBody
+            // 
+            panelBody.Location = new Point(265, 41);
+            panelBody.Name = "panelBody";
+            panelBody.Size = new Size(883, 889);
+            panelBody.TabIndex = 3;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -126,6 +136,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.None;
             ClientSize = new Size(1264, 985);
+            Controls.Add(panelBody);
             Controls.Add(btnBasketMForm);
             Controls.Add(btnUserMForm);
             Controls.Add(panel1);
@@ -144,5 +155,6 @@
         private Button btnBasketMForm;
         private Button button1;
         private Button button2;
+        private Panel panelBody;
     }
 }

@@ -23,8 +23,8 @@ namespace Store.Domain.Entities
         [Required(AllowEmptyStrings = true)]
         public string Patronymic { get; set; }
         public DateOnly DateOnly { get; set; }
-        public required string Phone { get; set; }
-        public string PathToPhoto { get; set; }
+        public string? Phone { get; set; }
+        public string? PathToPhoto { get; set; }
 
         [Required, RegularExpression(@"^.*[a-zA-z]", ErrorMessage ="Введите верное значение")]
         public string Username { get; set; }

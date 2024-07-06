@@ -22,6 +22,8 @@ namespace StoreWinFrom
                 {
                     var connectionString = context.Configuration.GetConnectionString("Default");
                     services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(connectionString));
+
+                    services.AddTransient<LoginForm>();
                 });
 
             var host = builder.Build();
@@ -33,7 +35,7 @@ namespace StoreWinFrom
                 AppDbContextInitializer.Seed(context);
 
                 ApplicationConfiguration.Initialize();
-                Application.Run(new LoginForm());
+                Application.Run(services.GetService<LoginForm>());
             }
         }
     }

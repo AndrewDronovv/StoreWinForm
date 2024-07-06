@@ -90,6 +90,7 @@
             btnEnterLogForm.TabIndex = 5;
             btnEnterLogForm.Text = "Войти";
             btnEnterLogForm.UseVisualStyleBackColor = false;
+            btnEnterLogForm.Click += btnEnterLogForm_Click;
             // 
             // label3
             // 
