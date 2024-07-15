@@ -31,10 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             panel1 = new Panel();
             button2 = new Button();
-            button1 = new Button();
-            btnCatalogMForm = new Button();
-            btnUserMForm = new Button();
-            btnBasketMForm = new Button();
+            btnEmployeeMainFrom = new Button();
+            btnCatalogMainForm = new Button();
+            btnProfile = new Button();
+            btnCart = new Button();
             panelBody = new Panel();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -44,12 +44,12 @@
             panel1.BackColor = Color.White;
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
             panel1.Controls.Add(button2);
-            panel1.Controls.Add(button1);
-            panel1.Controls.Add(btnCatalogMForm);
+            panel1.Controls.Add(btnEmployeeMainFrom);
+            panel1.Controls.Add(btnCatalogMainForm);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(240, 985);
+            panel1.Size = new Size(240, 1069);
             panel1.TabIndex = 0;
             // 
             // button2
@@ -59,7 +59,7 @@
             button2.FlatAppearance.BorderSize = 0;
             button2.Font = new Font("Roboto", 16F, FontStyle.Bold);
             button2.ForeColor = Color.White;
-            button2.Location = new Point(0, 920);
+            button2.Location = new Point(0, 1004);
             button2.Name = "button2";
             button2.Size = new Size(240, 65);
             button2.TabIndex = 4;
@@ -67,65 +67,68 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
-            // button1
+            // btnEmployeeMainFrom
             // 
-            button1.BackColor = SystemColors.MenuHighlight;
-            button1.Dock = DockStyle.Top;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.Font = new Font("Roboto", 16F, FontStyle.Bold);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(0, 65);
-            button1.Name = "button1";
-            button1.Size = new Size(240, 65);
-            button1.TabIndex = 3;
-            button1.Text = "Сотрудники";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            btnEmployeeMainFrom.BackColor = SystemColors.MenuHighlight;
+            btnEmployeeMainFrom.Dock = DockStyle.Top;
+            btnEmployeeMainFrom.FlatAppearance.BorderSize = 0;
+            btnEmployeeMainFrom.Font = new Font("Roboto", 16F, FontStyle.Bold);
+            btnEmployeeMainFrom.ForeColor = Color.White;
+            btnEmployeeMainFrom.Location = new Point(0, 65);
+            btnEmployeeMainFrom.Name = "btnEmployeeMainFrom";
+            btnEmployeeMainFrom.Size = new Size(240, 65);
+            btnEmployeeMainFrom.TabIndex = 3;
+            btnEmployeeMainFrom.Text = "Сотрудники";
+            btnEmployeeMainFrom.UseVisualStyleBackColor = false;
+            btnEmployeeMainFrom.Click += btnEmployeeMainFrom_Click;
             // 
-            // btnCatalogMForm
+            // btnCatalogMainForm
             // 
-            btnCatalogMForm.BackColor = SystemColors.MenuHighlight;
-            btnCatalogMForm.Dock = DockStyle.Top;
-            btnCatalogMForm.FlatAppearance.BorderSize = 0;
-            btnCatalogMForm.Font = new Font("Roboto", 16F, FontStyle.Bold);
-            btnCatalogMForm.ForeColor = Color.White;
-            btnCatalogMForm.Location = new Point(0, 0);
-            btnCatalogMForm.Name = "btnCatalogMForm";
-            btnCatalogMForm.Size = new Size(240, 65);
-            btnCatalogMForm.TabIndex = 2;
-            btnCatalogMForm.Text = "Каталог";
-            btnCatalogMForm.UseVisualStyleBackColor = false;
-            btnCatalogMForm.Click += btnCatalogMForm_Click;
+            btnCatalogMainForm.BackColor = SystemColors.MenuHighlight;
+            btnCatalogMainForm.Dock = DockStyle.Top;
+            btnCatalogMainForm.FlatAppearance.BorderSize = 0;
+            btnCatalogMainForm.Font = new Font("Roboto", 16F, FontStyle.Bold);
+            btnCatalogMainForm.ForeColor = Color.White;
+            btnCatalogMainForm.Location = new Point(0, 0);
+            btnCatalogMainForm.Name = "btnCatalogMainForm";
+            btnCatalogMainForm.Size = new Size(240, 65);
+            btnCatalogMainForm.TabIndex = 2;
+            btnCatalogMainForm.Text = "Каталог";
+            btnCatalogMainForm.UseVisualStyleBackColor = false;
+            btnCatalogMainForm.Click += btnCatalogMainForm_Click;
             // 
-            // btnUserMForm
+            // btnProfile
             // 
-            btnUserMForm.BackColor = Color.Transparent;
-            btnUserMForm.BackgroundImage = (Image)resources.GetObject("btnUserMForm.BackgroundImage");
-            btnUserMForm.BackgroundImageLayout = ImageLayout.Stretch;
-            btnUserMForm.FlatStyle = FlatStyle.Popup;
-            btnUserMForm.Location = new Point(1170, 41);
-            btnUserMForm.Name = "btnUserMForm";
-            btnUserMForm.Size = new Size(55, 55);
-            btnUserMForm.TabIndex = 1;
-            btnUserMForm.UseVisualStyleBackColor = false;
+            btnProfile.BackColor = Color.Transparent;
+            btnProfile.BackgroundImage = (Image)resources.GetObject("btnProfile.BackgroundImage");
+            btnProfile.BackgroundImageLayout = ImageLayout.Stretch;
+            btnProfile.FlatStyle = FlatStyle.Popup;
+            btnProfile.Location = new Point(1694, 41);
+            btnProfile.Name = "btnProfile";
+            btnProfile.Size = new Size(55, 55);
+            btnProfile.TabIndex = 1;
+            btnProfile.UseVisualStyleBackColor = false;
+            btnProfile.Click += btnProfile_Click;
             // 
-            // btnBasketMForm
+            // btnCart
             // 
-            btnBasketMForm.BackColor = Color.Transparent;
-            btnBasketMForm.BackgroundImage = (Image)resources.GetObject("btnBasketMForm.BackgroundImage");
-            btnBasketMForm.BackgroundImageLayout = ImageLayout.Stretch;
-            btnBasketMForm.FlatStyle = FlatStyle.Popup;
-            btnBasketMForm.Location = new Point(1170, 122);
-            btnBasketMForm.Name = "btnBasketMForm";
-            btnBasketMForm.Size = new Size(55, 55);
-            btnBasketMForm.TabIndex = 2;
-            btnBasketMForm.UseVisualStyleBackColor = false;
+            btnCart.BackColor = Color.Transparent;
+            btnCart.BackgroundImage = (Image)resources.GetObject("btnCart.BackgroundImage");
+            btnCart.BackgroundImageLayout = ImageLayout.Stretch;
+            btnCart.FlatStyle = FlatStyle.Popup;
+            btnCart.Location = new Point(1694, 121);
+            btnCart.Name = "btnCart";
+            btnCart.Size = new Size(55, 55);
+            btnCart.TabIndex = 2;
+            btnCart.UseVisualStyleBackColor = false;
+            btnCart.Click += btnCart_Click;
             // 
             // panelBody
             // 
-            panelBody.Location = new Point(265, 41);
+            panelBody.BackColor = Color.Transparent;
+            panelBody.Location = new Point(273, 41);
             panelBody.Name = "panelBody";
-            panelBody.Size = new Size(883, 889);
+            panelBody.Size = new Size(1400, 1000);
             panelBody.TabIndex = 3;
             // 
             // MainForm
@@ -134,11 +137,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightGray;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            BackgroundImageLayout = ImageLayout.None;
-            ClientSize = new Size(1264, 985);
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(1784, 1069);
             Controls.Add(panelBody);
-            Controls.Add(btnBasketMForm);
-            Controls.Add(btnUserMForm);
+            Controls.Add(btnCart);
+            Controls.Add(btnProfile);
             Controls.Add(panel1);
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
@@ -150,10 +153,10 @@
         #endregion
 
         private Panel panel1;
-        private Button btnUserMForm;
-        private Button btnCatalogMForm;
-        private Button btnBasketMForm;
-        private Button button1;
+        private Button btnProfile;
+        private Button btnCatalogMainForm;
+        private Button btnCart;
+        private Button btnEmployeeMainFrom;
         private Button button2;
         private Panel panelBody;
     }

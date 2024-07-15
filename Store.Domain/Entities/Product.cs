@@ -16,16 +16,5 @@ namespace Store.Domain.Entities
         public string Name { get; set; }
         public decimal Price { get; set; }
         public int Quantity { get; set; }
-
-        public Product()
-        {
-        }
-        public Product(int categoryId, string name, decimal price, int quantity)
-        {
-            CategoryId = categoryId;
-            Name = name;
-            Price = price;
-            Quantity = quantity;
-        }
     }
 }

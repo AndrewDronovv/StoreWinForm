@@ -11,7 +11,8 @@ namespace Store.Domain.Entities
     {
         public int GroupRightId { get; set; }
         
-        [ForeignKey("GroupRightId")]
+        
+        [ForeignKey(nameof(GroupRightId))]
         public GroupRight GroupRight { get; set; }
         public required string Name { get; set; }
 

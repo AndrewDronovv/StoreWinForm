@@ -1,10 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Store.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Store.Domain
 {
@@ -19,17 +14,12 @@ namespace Store.Domain
         //public DbSet<ProductCart> ProductCarts { get; set; }
         //public DbSet<Right> Rights { get; set; }
         //public DbSet<RightRole> RightRoles { get; set; }
-        
+
         public AppDbContext(DbContextOptions options) : base(options)
         {
         }
         public AppDbContext()
         {
-        }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=DentalStore;Trusted_Connection=True;");
         }
     }
 }

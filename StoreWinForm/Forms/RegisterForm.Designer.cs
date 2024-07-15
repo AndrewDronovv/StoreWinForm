@@ -29,56 +29,32 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegisterForm));
-            maskedTextBox1 = new MaskedTextBox();
-            maskedTextBox2 = new MaskedTextBox();
-            maskedTextBox3 = new MaskedTextBox();
-            maskedTextBox4 = new MaskedTextBox();
             label1 = new Label();
             panel1 = new Panel();
+            empPictureBox = new PictureBox();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
-            maskedTextBox5 = new MaskedTextBox();
             label8 = new Label();
-            comboBox1 = new ComboBox();
+            cmbRole = new ComboBox();
             label9 = new Label();
-            maskedTextBox6 = new MaskedTextBox();
             label10 = new Label();
-            maskedTextBox7 = new MaskedTextBox();
             btnSaveRegForm = new Button();
             btnEscapeRegForm = new Button();
+            txtLastName = new TextBox();
+            txtName = new TextBox();
+            txtPatronymic = new TextBox();
+            txtUserName = new TextBox();
+            txtPassword = new TextBox();
+            btnAddPhoto = new Button();
+            pickerDateOfBirth = new DateTimePicker();
+            mskPhone = new MaskedTextBox();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)empPictureBox).BeginInit();
             SuspendLayout();
-            // 
-            // maskedTextBox1
-            // 
-            maskedTextBox1.Location = new Point(354, 203);
-            maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(147, 23);
-            maskedTextBox1.TabIndex = 0;
-            // 
-            // maskedTextBox2
-            // 
-            maskedTextBox2.Location = new Point(354, 245);
-            maskedTextBox2.Name = "maskedTextBox2";
-            maskedTextBox2.Size = new Size(147, 23);
-            maskedTextBox2.TabIndex = 1;
-            // 
-            // maskedTextBox3
-            // 
-            maskedTextBox3.Location = new Point(354, 283);
-            maskedTextBox3.Name = "maskedTextBox3";
-            maskedTextBox3.Size = new Size(147, 23);
-            maskedTextBox3.TabIndex = 2;
-            // 
-            // maskedTextBox4
-            // 
-            maskedTextBox4.Location = new Point(354, 320);
-            maskedTextBox4.Name = "maskedTextBox4";
-            maskedTextBox4.Size = new Size(147, 23);
-            maskedTextBox4.TabIndex = 3;
             // 
             // label1
             // 
@@ -86,7 +62,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Roboto", 14F);
             label1.ForeColor = Color.WhiteSmoke;
-            label1.Location = new Point(764, 129);
+            label1.Location = new Point(482, 45);
             label1.Name = "label1";
             label1.Size = new Size(163, 23);
             label1.TabIndex = 4;
@@ -96,10 +72,20 @@
             // 
             panel1.BackColor = Color.White;
             panel1.BorderStyle = BorderStyle.FixedSingle;
-            panel1.Location = new Point(764, 155);
+            panel1.Controls.Add(empPictureBox);
+            panel1.Location = new Point(482, 71);
             panel1.Name = "panel1";
             panel1.Size = new Size(320, 320);
             panel1.TabIndex = 5;
+            // 
+            // empPictureBox
+            // 
+            empPictureBox.Location = new Point(17, 16);
+            empPictureBox.Name = "empPictureBox";
+            empPictureBox.Size = new Size(287, 288);
+            empPictureBox.SizeMode = PictureBoxSizeMode.Zoom;
+            empPictureBox.TabIndex = 0;
+            empPictureBox.TabStop = false;
             // 
             // label2
             // 
@@ -107,7 +93,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Roboto", 14F);
             label2.ForeColor = Color.WhiteSmoke;
-            label2.Location = new Point(256, 203);
+            label2.Location = new Point(146, 113);
             label2.Name = "label2";
             label2.Size = new Size(92, 23);
             label2.TabIndex = 5;
@@ -119,7 +105,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Roboto", 14F);
             label3.ForeColor = Color.WhiteSmoke;
-            label3.Location = new Point(300, 245);
+            label3.Location = new Point(190, 155);
             label3.Name = "label3";
             label3.Size = new Size(48, 23);
             label3.TabIndex = 6;
@@ -131,7 +117,7 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Roboto", 14F);
             label4.ForeColor = Color.WhiteSmoke;
-            label4.Location = new Point(255, 283);
+            label4.Location = new Point(145, 193);
             label4.Name = "label4";
             label4.Size = new Size(93, 23);
             label4.TabIndex = 7;
@@ -143,7 +129,7 @@
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Roboto", 14F);
             label5.ForeColor = Color.WhiteSmoke;
-            label5.Location = new Point(200, 320);
+            label5.Location = new Point(90, 230);
             label5.Name = "label5";
             label5.Size = new Size(148, 23);
             label5.TabIndex = 8;
@@ -155,7 +141,7 @@
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Roboto", 18F, FontStyle.Bold);
             label6.ForeColor = Color.WhiteSmoke;
-            label6.Location = new Point(118, 129);
+            label6.Location = new Point(22, 39);
             label6.Name = "label6";
             label6.Size = new Size(383, 29);
             label6.TabIndex = 9;
@@ -167,18 +153,11 @@
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Roboto", 14F);
             label7.ForeColor = Color.WhiteSmoke;
-            label7.Location = new Point(261, 359);
+            label7.Location = new Point(151, 269);
             label7.Name = "label7";
             label7.Size = new Size(87, 23);
             label7.TabIndex = 11;
             label7.Text = "Телефон";
-            // 
-            // maskedTextBox5
-            // 
-            maskedTextBox5.Location = new Point(354, 359);
-            maskedTextBox5.Name = "maskedTextBox5";
-            maskedTextBox5.Size = new Size(147, 23);
-            maskedTextBox5.TabIndex = 10;
             // 
             // label8
             // 
@@ -186,19 +165,19 @@
             label8.BackColor = Color.Transparent;
             label8.Font = new Font("Roboto", 14F);
             label8.ForeColor = Color.WhiteSmoke;
-            label8.Location = new Point(294, 397);
+            label8.Location = new Point(184, 307);
             label8.Name = "label8";
             label8.Size = new Size(54, 23);
             label8.TabIndex = 12;
             label8.Text = "Роль";
             // 
-            // comboBox1
+            // cmbRole
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(354, 397);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(147, 23);
-            comboBox1.TabIndex = 13;
+            cmbRole.FormattingEnabled = true;
+            cmbRole.Location = new Point(244, 307);
+            cmbRole.Name = "cmbRole";
+            cmbRole.Size = new Size(161, 23);
+            cmbRole.TabIndex = 13;
             // 
             // label9
             // 
@@ -206,18 +185,11 @@
             label9.BackColor = Color.Transparent;
             label9.Font = new Font("Roboto", 14F);
             label9.ForeColor = Color.WhiteSmoke;
-            label9.Location = new Point(284, 435);
+            label9.Location = new Point(174, 345);
             label9.Name = "label9";
             label9.Size = new Size(64, 23);
             label9.TabIndex = 15;
             label9.Text = "Логин";
-            // 
-            // maskedTextBox6
-            // 
-            maskedTextBox6.Location = new Point(354, 435);
-            maskedTextBox6.Name = "maskedTextBox6";
-            maskedTextBox6.Size = new Size(147, 23);
-            maskedTextBox6.TabIndex = 14;
             // 
             // label10
             // 
@@ -225,18 +197,11 @@
             label10.BackColor = Color.Transparent;
             label10.Font = new Font("Roboto", 14F);
             label10.ForeColor = Color.WhiteSmoke;
-            label10.Location = new Point(271, 475);
+            label10.Location = new Point(161, 385);
             label10.Name = "label10";
             label10.Size = new Size(77, 23);
             label10.TabIndex = 17;
             label10.Text = "Пароль";
-            // 
-            // maskedTextBox7
-            // 
-            maskedTextBox7.Location = new Point(354, 475);
-            maskedTextBox7.Name = "maskedTextBox7";
-            maskedTextBox7.Size = new Size(147, 23);
-            maskedTextBox7.TabIndex = 16;
             // 
             // btnSaveRegForm
             // 
@@ -245,13 +210,13 @@
             btnSaveRegForm.FlatStyle = FlatStyle.Flat;
             btnSaveRegForm.Font = new Font("Roboto", 14F, FontStyle.Bold);
             btnSaveRegForm.ForeColor = Color.WhiteSmoke;
-            btnSaveRegForm.Location = new Point(380, 521);
+            btnSaveRegForm.Location = new Point(263, 422);
             btnSaveRegForm.Name = "btnSaveRegForm";
             btnSaveRegForm.Size = new Size(121, 37);
             btnSaveRegForm.TabIndex = 18;
             btnSaveRegForm.Text = "Сохранить";
-            btnSaveRegForm.TextAlign = ContentAlignment.MiddleRight;
             btnSaveRegForm.UseVisualStyleBackColor = false;
+            btnSaveRegForm.Click += btnSaveRegForm_Click;
             // 
             // btnEscapeRegForm
             // 
@@ -260,13 +225,82 @@
             btnEscapeRegForm.FlatStyle = FlatStyle.Flat;
             btnEscapeRegForm.Font = new Font("Roboto", 14F, FontStyle.Bold);
             btnEscapeRegForm.ForeColor = Color.WhiteSmoke;
-            btnEscapeRegForm.Location = new Point(380, 564);
+            btnEscapeRegForm.Location = new Point(263, 473);
             btnEscapeRegForm.Name = "btnEscapeRegForm";
             btnEscapeRegForm.Size = new Size(121, 37);
             btnEscapeRegForm.TabIndex = 19;
-            btnEscapeRegForm.Text = "Выход";
-            btnEscapeRegForm.TextAlign = ContentAlignment.MiddleRight;
+            btnEscapeRegForm.Text = "Отмена";
             btnEscapeRegForm.UseVisualStyleBackColor = false;
+            btnEscapeRegForm.Click += btnEscapeRegForm_Click;
+            // 
+            // txtLastName
+            // 
+            txtLastName.Location = new Point(244, 113);
+            txtLastName.Name = "txtLastName";
+            txtLastName.Size = new Size(161, 23);
+            txtLastName.TabIndex = 20;
+            // 
+            // txtName
+            // 
+            txtName.Location = new Point(244, 155);
+            txtName.Name = "txtName";
+            txtName.Size = new Size(161, 23);
+            txtName.TabIndex = 21;
+            // 
+            // txtPatronymic
+            // 
+            txtPatronymic.Location = new Point(244, 193);
+            txtPatronymic.Name = "txtPatronymic";
+            txtPatronymic.Size = new Size(161, 23);
+            txtPatronymic.TabIndex = 22;
+            // 
+            // txtUserName
+            // 
+            txtUserName.Location = new Point(244, 345);
+            txtUserName.Name = "txtUserName";
+            txtUserName.Size = new Size(161, 23);
+            txtUserName.TabIndex = 25;
+            // 
+            // txtPassword
+            // 
+            txtPassword.Location = new Point(244, 385);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(161, 23);
+            txtPassword.TabIndex = 26;
+            // 
+            // btnAddPhoto
+            // 
+            btnAddPhoto.BackColor = Color.Transparent;
+            btnAddPhoto.FlatAppearance.BorderSize = 0;
+            btnAddPhoto.FlatStyle = FlatStyle.Flat;
+            btnAddPhoto.Font = new Font("Roboto", 10F, FontStyle.Bold);
+            btnAddPhoto.ForeColor = Color.WhiteSmoke;
+            btnAddPhoto.Location = new Point(705, 397);
+            btnAddPhoto.Name = "btnAddPhoto";
+            btnAddPhoto.Size = new Size(97, 33);
+            btnAddPhoto.TabIndex = 29;
+            btnAddPhoto.Text = "Открыть";
+            btnAddPhoto.UseVisualStyleBackColor = false;
+            btnAddPhoto.Click += btnAddPhoto_Click;
+            // 
+            // pickerDateOfBirth
+            // 
+            pickerDateOfBirth.Format = DateTimePickerFormat.Short;
+            pickerDateOfBirth.Location = new Point(244, 230);
+            pickerDateOfBirth.MinDate = new DateTime(1930, 1, 1, 0, 0, 0, 0);
+            pickerDateOfBirth.Name = "pickerDateOfBirth";
+            pickerDateOfBirth.Size = new Size(161, 23);
+            pickerDateOfBirth.TabIndex = 30;
+            pickerDateOfBirth.Value = new DateTime(2006, 1, 1, 0, 0, 0, 0);
+            pickerDateOfBirth.ValueChanged += pickerDateOfBirth_ValueChanged;
+            // 
+            // mskPhone
+            // 
+            mskPhone.Location = new Point(244, 269);
+            mskPhone.Mask = "+7(999) 000-00-00";
+            mskPhone.Name = "mskPhone";
+            mskPhone.Size = new Size(161, 23);
+            mskPhone.TabIndex = 31;
             // 
             // RegisterForm
             // 
@@ -274,42 +308,40 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightGray;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            BackgroundImageLayout = ImageLayout.None;
-            ClientSize = new Size(1264, 985);
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(844, 531);
+            Controls.Add(mskPhone);
+            Controls.Add(pickerDateOfBirth);
+            Controls.Add(btnAddPhoto);
+            Controls.Add(txtPassword);
+            Controls.Add(txtUserName);
+            Controls.Add(txtPatronymic);
+            Controls.Add(txtName);
+            Controls.Add(txtLastName);
             Controls.Add(label1);
             Controls.Add(btnEscapeRegForm);
             Controls.Add(btnSaveRegForm);
             Controls.Add(label10);
-            Controls.Add(maskedTextBox7);
             Controls.Add(label9);
-            Controls.Add(maskedTextBox6);
-            Controls.Add(comboBox1);
+            Controls.Add(cmbRole);
             Controls.Add(label8);
             Controls.Add(label7);
-            Controls.Add(maskedTextBox5);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(panel1);
-            Controls.Add(maskedTextBox4);
-            Controls.Add(maskedTextBox3);
-            Controls.Add(maskedTextBox2);
-            Controls.Add(maskedTextBox1);
             Name = "RegisterForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "RegisterForm";
+            panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)empPictureBox).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private MaskedTextBox maskedTextBox1;
-        private MaskedTextBox maskedTextBox2;
-        private MaskedTextBox maskedTextBox3;
-        private MaskedTextBox maskedTextBox4;
         private Label label1;
         private Panel panel1;
         private Label label2;
@@ -318,14 +350,20 @@
         private Label label5;
         private Label label6;
         private Label label7;
-        private MaskedTextBox maskedTextBox5;
         private Label label8;
-        private ComboBox comboBox1;
+        private ComboBox cmbRole;
         private Label label9;
-        private MaskedTextBox maskedTextBox6;
         private Label label10;
-        private MaskedTextBox maskedTextBox7;
         private Button btnSaveRegForm;
         private Button btnEscapeRegForm;
+        private TextBox txtLastName;
+        private TextBox txtName;
+        private TextBox txtPatronymic;
+        private TextBox txtUserName;
+        private TextBox txtPassword;
+        private PictureBox empPictureBox;
+        private Button btnAddPhoto;
+        private DateTimePicker pickerDateOfBirth;
+        private MaskedTextBox mskPhone;
     }
 }

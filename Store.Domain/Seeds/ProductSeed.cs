@@ -1,10 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Store.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Store.Domain.Entities;
 
 namespace Store.Domain.Seeds
 {
@@ -16,12 +10,39 @@ namespace Store.Domain.Seeds
 
         public override void Seed()
         {
+            var categoryFirst = Context.Categories.First(n => n.Name == "Хирургия").Id;
+            var categorySecond = Context.Categories.First(n => n.Name == "Терапевтия").Id;
+            var cetegoryThird = Context.Categories.First(n => n.Name == "Ортопедия").Id;
+            var categoryFourth = Context.Categories.First(n => n.Name == "Анестезия").Id;
             var products = new List<Product>
             {
-                new Product{CategoryId = Context.Categories.First(n => n.Name == "Хирургия").Id, Name = "Bio-Gide Perio (16х22мм) мембрана", Price = 13325, Quantity = 20},
-                new Product{CategoryId = Context.Categories.First(n => n.Name == "Терапевтия").Id, Name = "Bright Light Flow цв.A2 (2шпр.х 2г)-жидкотекучий", Price = 819, Quantity = 70},
-                new Product{CategoryId = Context.Categories.First(n => n.Name == "Ортопедия").Id, Name = "Speedex Putty - Спидекс база (910мл), Coltene", Price = 2142, Quantity = 1200},
-                new Product{CategoryId = Context.Categories.First(n => n.Name == "Анестезия").Id, Name = "УЛЬТРАКАИН ДС ФОРТЕ - ULTRACAIN D-S FORTE 1:100 000", Price = 19181, Quantity = 500},
+                new Product
+                {
+                    CategoryId = categoryFirst,
+                    Name = "Bio-Gide Perio (16х22мм) мембрана",
+                    Price = 13325, Quantity = 20
+                },
+                new Product
+                {
+                    CategoryId = categorySecond,
+                    Name = "Bright Light Flow цв.A2 (2шпр.х 2г)-жидкотекучий",
+                    Price = 819,
+                    Quantity = 70
+                },
+                new Product
+                {
+                    CategoryId = cetegoryThird,
+                    Name = "Speedex Putty - Спидекс база (910мл), Coltene",
+                    Price = 2142,
+                    Quantity = 1200
+                },
+                new Product
+                {
+                    CategoryId = categoryFourth,
+                    Name = "УЛЬТРАКАИН ДС ФОРТЕ - ULTRACAIN D-S FORTE 1:100 000",
+                    Price = 19181,
+                    Quantity = 500
+                },
 
             };
 

@@ -1,10 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Storage;
-using Store.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Store.Domain.Entities;
 
 namespace Store.Domain.Seeds
 {
@@ -16,7 +10,7 @@ namespace Store.Domain.Seeds
 
         public override void Seed()
         {
-            var categories = new[] { "Хирургия", "Терапевтия", "Ортопедия", "Анестезия"};
+            var categories = new[] { "Хирургия", "Терапевтия", "Ортопедия", "Анестезия" };
             foreach (var categoryName in categories)
             {
                 var category = Context.Categories.FirstOrDefault(c => c.Name == categoryName);

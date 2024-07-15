@@ -12,7 +12,7 @@ using Store.Domain;
 namespace Store.Domain.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240630125738_Initial")]
+    [Migration("20240711151441_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -74,8 +74,8 @@ namespace Store.Domain.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("DateTime")
-                        .HasColumnType("datetime2");
+                    b.Property<DateOnly>("DateOnly")
+                        .HasColumnType("date");
 
                     b.Property<string>("LastName")
                         .IsRequired()
@@ -90,14 +90,12 @@ namespace Store.Domain.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PathToPhoto")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Patronymic")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("RoleId")

@@ -10,10 +10,12 @@ namespace Store.Domain.Entities
     public class ProductCart : Entity
     {
         public int ProductId { get; set; }
-        [ForeignKey("ProductId")]
+        
+        [ForeignKey(nameof(ProductId))]
         public Product Product { get; set; }
         public int CartId { get; set; }
-        [ForeignKey("CartId")]
+        
+        [ForeignKey(nameof(CartId))]
         public Cart Cart { get; set; }
         public int QuantityProduct { get; set; }
     }

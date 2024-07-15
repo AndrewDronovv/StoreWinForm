@@ -4,6 +4,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Store.Domain;
 using Store.Domain.Seeds;
+using StoreWinForm.Forms;
+using StoreWinFrom.Forms;
 
 namespace StoreWinFrom
 {
@@ -24,6 +26,13 @@ namespace StoreWinFrom
                     services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(connectionString));
 
                     services.AddTransient<LoginForm>();
+                    services.AddTransient<MainForm>();
+                    services.AddTransient<RegisterForm>();
+                    services.AddTransient<EmployeeForm>();
+                    services.AddTransient<CatalogForm>();
+                    services.AddTransient<ProductForm>();
+                    services.AddTransient<ProfileForm>();
+                    services.AddTransient<CartForm>();
                 });
 
             var host = builder.Build();

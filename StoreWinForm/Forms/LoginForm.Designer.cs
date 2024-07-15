@@ -33,13 +33,14 @@
             label2 = new Label();
             btnEnterLogForm = new Button();
             label3 = new Label();
-            button2 = new Button();
+            btnVisiblePassword = new Button();
             btnEscapeLogForm = new Button();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
             txtLoginInput = new TextBox();
             txtPasswordInput = new TextBox();
+            btnInvisiblePassword = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -84,7 +85,7 @@
             btnEnterLogForm.FlatStyle = FlatStyle.Flat;
             btnEnterLogForm.Font = new Font("Roboto", 14F, FontStyle.Bold);
             btnEnterLogForm.ForeColor = Color.WhiteSmoke;
-            btnEnterLogForm.Location = new Point(254, 373);
+            btnEnterLogForm.Location = new Point(264, 381);
             btnEnterLogForm.Name = "btnEnterLogForm";
             btnEnterLogForm.Size = new Size(107, 37);
             btnEnterLogForm.TabIndex = 5;
@@ -105,20 +106,21 @@
             label3.Text = "Пароль";
             label3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // button2
+            // btnVisiblePassword
             // 
-            button2.BackColor = Color.Transparent;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button2.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.ForeColor = Color.Transparent;
-            button2.Image = (Image)resources.GetObject("button2.Image");
-            button2.Location = new Point(406, 329);
-            button2.Name = "button2";
-            button2.Size = new Size(37, 28);
-            button2.TabIndex = 6;
-            button2.UseVisualStyleBackColor = false;
+            btnVisiblePassword.BackColor = Color.Transparent;
+            btnVisiblePassword.FlatAppearance.BorderSize = 0;
+            btnVisiblePassword.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnVisiblePassword.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnVisiblePassword.FlatStyle = FlatStyle.Flat;
+            btnVisiblePassword.ForeColor = Color.Transparent;
+            btnVisiblePassword.Image = (Image)resources.GetObject("btnVisiblePassword.Image");
+            btnVisiblePassword.Location = new Point(406, 330);
+            btnVisiblePassword.Name = "btnVisiblePassword";
+            btnVisiblePassword.Size = new Size(37, 28);
+            btnVisiblePassword.TabIndex = 6;
+            btnVisiblePassword.UseVisualStyleBackColor = false;
+            btnVisiblePassword.Click += btnVisiblePassword_Click;
             // 
             // btnEscapeLogForm
             // 
@@ -131,7 +133,7 @@
             btnEscapeLogForm.FlatStyle = FlatStyle.Flat;
             btnEscapeLogForm.Font = new Font("Roboto", 14F, FontStyle.Bold);
             btnEscapeLogForm.ForeColor = Color.WhiteSmoke;
-            btnEscapeLogForm.Location = new Point(254, 416);
+            btnEscapeLogForm.Location = new Point(264, 424);
             btnEscapeLogForm.Name = "btnEscapeLogForm";
             btnEscapeLogForm.Size = new Size(107, 37);
             btnEscapeLogForm.TabIndex = 7;
@@ -164,6 +166,7 @@
             // 
             // pictureBox3
             // 
+            pictureBox3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pictureBox3.BackColor = Color.Transparent;
             pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
@@ -187,6 +190,23 @@
             txtPasswordInput.Size = new Size(165, 23);
             txtPasswordInput.TabIndex = 13;
             // 
+            // btnInvisiblePassword
+            // 
+            btnInvisiblePassword.BackColor = Color.Transparent;
+            btnInvisiblePassword.FlatAppearance.BorderSize = 0;
+            btnInvisiblePassword.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnInvisiblePassword.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnInvisiblePassword.FlatStyle = FlatStyle.Flat;
+            btnInvisiblePassword.ForeColor = Color.Transparent;
+            btnInvisiblePassword.Image = (Image)resources.GetObject("btnInvisiblePassword.Image");
+            btnInvisiblePassword.Location = new Point(406, 330);
+            btnInvisiblePassword.Name = "btnInvisiblePassword";
+            btnInvisiblePassword.Size = new Size(37, 28);
+            btnInvisiblePassword.TabIndex = 14;
+            btnInvisiblePassword.UseVisualStyleBackColor = false;
+            btnInvisiblePassword.Visible = false;
+            btnInvisiblePassword.Click += btnInvisiblePassword_Click;
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -195,13 +215,14 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.None;
             ClientSize = new Size(604, 581);
+            Controls.Add(btnInvisiblePassword);
             Controls.Add(txtPasswordInput);
             Controls.Add(txtLoginInput);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(btnEscapeLogForm);
-            Controls.Add(button2);
+            Controls.Add(btnVisiblePassword);
             Controls.Add(label1);
             Controls.Add(btnEnterLogForm);
             Controls.Add(label3);
@@ -223,12 +244,13 @@
         private Label label2;
         private Button btnEnterLogForm;
         private Label label3;
-        private Button button2;
+        private Button btnVisiblePassword;
         private Button btnEscapeLogForm;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
         private TextBox txtLoginInput;
         private TextBox txtPasswordInput;
+        private Button btnInvisiblePassword;
     }
 }

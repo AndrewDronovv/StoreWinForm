@@ -1,9 +1,4 @@
 ﻿using Store.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Store.Domain.Seeds
 {
@@ -15,21 +10,34 @@ namespace Store.Domain.Seeds
 
         public override void Seed()
         {
-            var roleId = Context.Roles.First(r => r.Name == "Администратор").Id;
+            var roleIdAdmin = Context.Roles.First(r => r.Name == "Администратор").Id;
+            var roleIdManager = Context.Roles.First(r => r.Name == "Менеджер по продажам").Id;
             var employees = new List<Employee>
             {
                 new Employee
                 {
-                    RoleId = roleId,
-                    Name = "Андрей",
-                    LastName = "Хабаров",
-                    Patronymic = "Владимирович",
-                    DateOnly = new DateOnly(1989,09,29),
-                    Phone = "8(965)-298-10-85",
-                    PathToPhoto = null,
+                    RoleId = roleIdAdmin,
+                    Name = "Василий",
+                    LastName = "Теплов",
+                    Patronymic = "Кириллович",
+                    DateOnly = new DateOnly(1991,05,17),
+                    Phone = "+7(977)-210-15-70",
+                    PathToPhoto = "C:\\Users\\Андрей\\source\\repos\\StoreWinForm\\Supplements\\images\\image1.jpg",
                     Username = "admin",
                     Password = "admin"
                 },
+                new Employee
+                {
+                    RoleId = roleIdManager,
+                    Name = "Сергей",
+                    LastName = "Петров",
+                    Patronymic = "Иванович",
+                    DateOnly = new DateOnly(1995,10,08),
+                    Phone = "+7(963)-155-37-75",
+                    PathToPhoto = "C:\\Users\\Андрей\\source\\repos\\StoreWinForm\\Supplements\\images\\image2.jpg",
+                    Username = "manager",
+                    Password = "manager"
+                }
             };
 
             foreach (var employeeList in employees)

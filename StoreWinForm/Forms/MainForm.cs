@@ -1,31 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Store.Domain;
+using StoreWinForm.Forms;
 
 namespace StoreWinFrom.Forms
 {
-    public partial class MainForm : Form
+    public partial class MainForm : FormBase
     {
         private Form activeForm;
-        public MainForm()
+        public MainForm(IServiceProvider serviceProvider, AppDbContext context) : base(serviceProvider, context)
         {
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Close();
         }
 
-        private void btnCatalogMForm_Click(object sender, EventArgs e)
+        private void btnCatalogMainForm_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new CatalogForm());
+            var catalogForm = ServiceProvider.GetService<CatalogForm>();
+            OpenChildForm(catalogForm);
+        }
+        private void btnEmployeeMainFrom_Click(object sender, EventArgs e)
+        {
+            var employeeForm = ServiceProvider.GetService<EmployeeForm>();
+            OpenChildForm(employeeForm);
         }
 
         private void OpenChildForm(Form childForm)
@@ -47,9 +47,16 @@ namespace StoreWinFrom.Forms
             activeForm.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnProfile_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new EmployeeForm());
+            var profileForm = ServiceProvider.GetService<ProfileForm>();
+            profileForm.Show();
+        }
+
+        private void btnCart_Click(object sender, EventArgs e)
+        {
+            var cartForm = ServiceProvider.GetService<CartForm>();
+            cartForm.Show();
         }
     }
 }

@@ -43,7 +43,7 @@ namespace Store.Domain.Migrations
 
                     b.HasIndex("EmployeeId");
 
-                    b.ToTable("Carts");
+                    b.ToTable("Carts", (string)null);
                 });
 
             modelBuilder.Entity("Store.Domain.Entities.Category", b =>
@@ -60,7 +60,7 @@ namespace Store.Domain.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("Store.Domain.Entities.Employee", b =>
@@ -87,15 +87,12 @@ namespace Store.Domain.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PathToPhoto")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Patronymic")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("RoleId")
@@ -109,7 +106,7 @@ namespace Store.Domain.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("Employees");
+                    b.ToTable("Employees", (string)null);
                 });
 
             modelBuilder.Entity("Store.Domain.Entities.Product", b =>
@@ -137,7 +134,7 @@ namespace Store.Domain.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("Store.Domain.Entities.Role", b =>
@@ -154,7 +151,7 @@ namespace Store.Domain.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Roles");
+                    b.ToTable("Roles", (string)null);
                 });
 
             modelBuilder.Entity("Store.Domain.Entities.Cart", b =>

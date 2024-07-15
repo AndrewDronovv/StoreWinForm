@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Store.Domain.Entities
 {
@@ -19,14 +13,11 @@ namespace Store.Domain.Entities
 
         [NotMapped]
         public string FullName => $"{LastName} {Name} {Patronymic}";
-
-        [Required(AllowEmptyStrings = true)]
-        public string Patronymic { get; set; }
+        public string? Patronymic { get; set; }
         public DateOnly DateOnly { get; set; }
         public string? Phone { get; set; }
         public string? PathToPhoto { get; set; }
 
-        [Required, RegularExpression(@"^.*[a-zA-z]", ErrorMessage ="Введите верное значение")]
         public string Username { get; set; }
         public string Password { get; set; }
     }
