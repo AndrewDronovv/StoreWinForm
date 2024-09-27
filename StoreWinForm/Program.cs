@@ -31,8 +31,6 @@ namespace StoreWinFrom
                     services.AddTransient<EmployeeForm>();
                     services.AddTransient<CatalogForm>();
                     services.AddTransient<ProductForm>();
-                    services.AddTransient<ProfileForm>();
-                    services.AddTransient<CartForm>();
                 });
 
             var host = builder.Build();

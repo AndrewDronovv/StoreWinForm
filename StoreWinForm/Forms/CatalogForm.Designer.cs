@@ -28,11 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CatalogForm));
             label6 = new Label();
             btnAddCatalogForm = new Button();
-            button2 = new Button();
-            textBox1 = new TextBox();
             btnExitCatForm = new Button();
             SuspendLayout();
             // 
@@ -57,7 +54,7 @@
             btnAddCatalogForm.FlatStyle = FlatStyle.Flat;
             btnAddCatalogForm.Font = new Font("Roboto", 10F, FontStyle.Bold);
             btnAddCatalogForm.ForeColor = Color.WhiteSmoke;
-            btnAddCatalogForm.Location = new Point(512, 92);
+            btnAddCatalogForm.Location = new Point(1270, 49);
             btnAddCatalogForm.Name = "btnAddCatalogForm";
             btnAddCatalogForm.Size = new Size(92, 35);
             btnAddCatalogForm.TabIndex = 23;
@@ -65,29 +62,6 @@
             btnAddCatalogForm.TextAlign = ContentAlignment.MiddleRight;
             btnAddCatalogForm.UseVisualStyleBackColor = false;
             btnAddCatalogForm.Click += btnAddCatalogForm_Click;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.Transparent;
-            button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
-            button2.BackgroundImageLayout = ImageLayout.Stretch;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button2.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.ForeColor = Color.Transparent;
-            button2.Location = new Point(1140, 89);
-            button2.Name = "button2";
-            button2.Size = new Size(35, 33);
-            button2.TabIndex = 22;
-            button2.UseVisualStyleBackColor = false;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(833, 95);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(301, 23);
-            textBox1.TabIndex = 21;
             // 
             // btnExitCatForm
             // 
@@ -103,6 +77,7 @@
             btnExitCatForm.Text = "Выход";
             btnExitCatForm.TextAlign = ContentAlignment.MiddleRight;
             btnExitCatForm.UseVisualStyleBackColor = false;
+            btnExitCatForm.Click += btnExitCatForm_Click;
             // 
             // CatalogForm
             // 
@@ -113,8 +88,6 @@
             ClientSize = new Size(1384, 961);
             Controls.Add(btnExitCatForm);
             Controls.Add(btnAddCatalogForm);
-            Controls.Add(button2);
-            Controls.Add(textBox1);
             Controls.Add(label6);
             Name = "CatalogForm";
             Text = "CatalogForm";
@@ -126,8 +99,6 @@
 
         private Label label6;
         private Button btnAddCatalogForm;
-        private Button button2;
-        private TextBox textBox1;
         private Button btnExitCatForm;
     }
 }

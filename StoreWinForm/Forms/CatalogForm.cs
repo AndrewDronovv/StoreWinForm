@@ -68,5 +68,10 @@ namespace StoreWinFrom
 
             }
         }
+
+        private void btnExitCatForm_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

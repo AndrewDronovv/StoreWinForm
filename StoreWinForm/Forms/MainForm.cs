@@ -46,17 +46,5 @@ namespace StoreWinFrom.Forms
             activeForm.BringToFront();
             activeForm.Show();
         }
-
-        private void btnProfile_Click(object sender, EventArgs e)
-        {
-            var profileForm = ServiceProvider.GetService<ProfileForm>();
-            profileForm.Show();
-        }
-
-        private void btnCart_Click(object sender, EventArgs e)
-        {
-            var cartForm = ServiceProvider.GetService<CartForm>();
-            cartForm.Show();
-        }
     }
 }

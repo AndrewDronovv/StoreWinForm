@@ -317,5 +317,3 @@ C:\Users\Андрей\source\repos\StoreWinForm\StoreWinForm\obj\Debug\net8.0-wi
 C:\Users\Андрей\source\repos\StoreWinForm\StoreWinForm\obj\Debug\net8.0-windows\ref\StoreWinForm.dll
 C:\Users\Андрей\source\repos\StoreWinForm\StoreWinForm\obj\Debug\net8.0-windows\StoreWinForm.Forms.ProductForm.resources
 C:\Users\Андрей\source\repos\StoreWinForm\StoreWinForm\obj\Debug\net8.0-windows\StoreWinForm.Forms.FormBase.resources
-C:\Users\Андрей\source\repos\StoreWinForm\StoreWinForm\obj\Debug\net8.0-windows\StoreWinForm.Forms.CartForm.resources
-C:\Users\Андрей\source\repos\StoreWinForm\StoreWinForm\obj\Debug\net8.0-windows\StoreWinForm.Forms.ProfileForm.resources

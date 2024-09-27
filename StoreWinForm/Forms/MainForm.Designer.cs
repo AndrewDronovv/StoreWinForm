@@ -33,8 +33,6 @@
             button2 = new Button();
             btnEmployeeMainFrom = new Button();
             btnCatalogMainForm = new Button();
-            btnProfile = new Button();
-            btnCart = new Button();
             panelBody = new Panel();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -97,32 +95,6 @@
             btnCatalogMainForm.UseVisualStyleBackColor = false;
             btnCatalogMainForm.Click += btnCatalogMainForm_Click;
             // 
-            // btnProfile
-            // 
-            btnProfile.BackColor = Color.Transparent;
-            btnProfile.BackgroundImage = (Image)resources.GetObject("btnProfile.BackgroundImage");
-            btnProfile.BackgroundImageLayout = ImageLayout.Stretch;
-            btnProfile.FlatStyle = FlatStyle.Popup;
-            btnProfile.Location = new Point(1694, 41);
-            btnProfile.Name = "btnProfile";
-            btnProfile.Size = new Size(55, 55);
-            btnProfile.TabIndex = 1;
-            btnProfile.UseVisualStyleBackColor = false;
-            btnProfile.Click += btnProfile_Click;
-            // 
-            // btnCart
-            // 
-            btnCart.BackColor = Color.Transparent;
-            btnCart.BackgroundImage = (Image)resources.GetObject("btnCart.BackgroundImage");
-            btnCart.BackgroundImageLayout = ImageLayout.Stretch;
-            btnCart.FlatStyle = FlatStyle.Popup;
-            btnCart.Location = new Point(1694, 121);
-            btnCart.Name = "btnCart";
-            btnCart.Size = new Size(55, 55);
-            btnCart.TabIndex = 2;
-            btnCart.UseVisualStyleBackColor = false;
-            btnCart.Click += btnCart_Click;
-            // 
             // panelBody
             // 
             panelBody.BackColor = Color.Transparent;
@@ -140,8 +112,6 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1784, 1069);
             Controls.Add(panelBody);
-            Controls.Add(btnCart);
-            Controls.Add(btnProfile);
             Controls.Add(panel1);
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
@@ -153,9 +123,7 @@
         #endregion
 
         private Panel panel1;
-        private Button btnProfile;
         private Button btnCatalogMainForm;
-        private Button btnCart;
         private Button btnEmployeeMainFrom;
         private Button button2;
         private Panel panelBody;

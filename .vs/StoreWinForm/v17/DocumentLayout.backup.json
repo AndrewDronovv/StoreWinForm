@@ -3,136 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\storewinform\\forms\\catalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\catalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\storewinform\\forms\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\storewinform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\storewinform\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\storewinform\\forms\\profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\storewinform\\forms\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\storewinform\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\storewinform\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\storewinform\\forms\\formbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\formbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\storewinform\\forms\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\storewinform\\forms\\catalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\catalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\storewinform\\forms\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\storewinform\\forms\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\seeds\\roleseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\seeds\\roleseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\seeds\\productseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\seeds\\productseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\seeds\\employeeseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\seeds\\employeeseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\seeds\\categoryseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\seeds\\categoryseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\seeds\\baseseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\seeds\\baseseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\seeds\\appdbcontextinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\seeds\\appdbcontextinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\entities\\rightrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\entities\\rightrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\entities\\right.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\entities\\right.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\entities\\productcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\entities\\productcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\entities\\groupright.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\entities\\groupright.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\store.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B06DED-4B6B-4FA4-AA00-CD67CFF22BE0}|Store.Domain\\Store.Domain.csproj|solutionrelative:store.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\storewinform\\forms\\formbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\formbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\storewinform\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\storewinform\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\storewinform\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\storewinform\\forms\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\storewinform\\forms\\formbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\formbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\storewinform\\forms\\catalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\catalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\storewinform\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\storewinform\\storewinform\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3EA3D74-94D9-4E47-89BF-D05C397A8BD2}|StoreWinForm\\StoreWinForm.csproj|solutionrelative:storewinform\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 196,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -166,422 +66,100 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterForm.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\RegisterForm.cs",
-              "RelativeToolTip": "StoreWinForm\\Forms\\RegisterForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T09:02:42.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProfileForm.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\ProfileForm.cs",
-              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\ProfileForm.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\ProfileForm.cs",
-              "RelativeToolTip": "StoreWinForm\\Forms\\ProfileForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T09:02:41.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductForm.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\ProductForm.cs",
-              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\ProductForm.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\ProductForm.cs",
-              "RelativeToolTip": "StoreWinForm\\Forms\\ProductForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T09:02:39.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EmployeeForm.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\EmployeeForm.cs",
-              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\EmployeeForm.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\EmployeeForm.cs",
-              "RelativeToolTip": "StoreWinForm\\Forms\\EmployeeForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T09:02:30.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CatalogForm.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\CatalogForm.cs",
-              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\CatalogForm.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\CatalogForm.cs",
-              "RelativeToolTip": "StoreWinForm\\Forms\\CatalogForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T09:02:17.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CartForm.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\CartForm.cs",
-              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\CartForm.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\CartForm.cs",
-              "RelativeToolTip": "StoreWinForm\\Forms\\CartForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T09:02:13.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entity.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\Entity.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entity.cs",
-              "RelativeToolTip": "Store.Domain\\Entity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T09:02:06.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\AppDbContext.cs",
-              "RelativeToolTip": "Store.Domain\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T09:02:05.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AppDbContextInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Seeds\\AppDbContextInitializer.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\Seeds\\AppDbContextInitializer.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Seeds\\AppDbContextInitializer.cs",
-              "RelativeToolTip": "Store.Domain\\Seeds\\AppDbContextInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T09:01:57.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductSeed.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Seeds\\ProductSeed.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\Seeds\\ProductSeed.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Seeds\\ProductSeed.cs",
-              "RelativeToolTip": "Store.Domain\\Seeds\\ProductSeed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:28:51.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EmployeeSeed.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Seeds\\EmployeeSeed.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\Seeds\\EmployeeSeed.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Seeds\\EmployeeSeed.cs",
-              "RelativeToolTip": "Store.Domain\\Seeds\\EmployeeSeed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:28:47.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CategorySeed.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Seeds\\CategorySeed.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\Seeds\\CategorySeed.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Seeds\\CategorySeed.cs",
-              "RelativeToolTip": "Store.Domain\\Seeds\\CategorySeed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:28:45.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BaseSeed.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Seeds\\BaseSeed.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\Seeds\\BaseSeed.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Seeds\\BaseSeed.cs",
-              "RelativeToolTip": "Store.Domain\\Seeds\\BaseSeed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:28:44.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Right.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\Right.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\Entities\\Right.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\Right.cs",
-              "RelativeToolTip": "Store.Domain\\Entities\\Right.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:28:32.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ProductCart.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\ProductCart.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\Entities\\ProductCart.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\ProductCart.cs",
-              "RelativeToolTip": "Store.Domain\\Entities\\ProductCart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:28:28.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RoleSeed.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Seeds\\RoleSeed.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\Seeds\\RoleSeed.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Seeds\\RoleSeed.cs",
-              "RelativeToolTip": "Store.Domain\\Seeds\\RoleSeed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:28:54.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Program.cs",
               "RelativeDocumentMoniker": "StoreWinForm\\Program.cs",
               "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Program.cs",
               "RelativeToolTip": "StoreWinForm\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T09:02:34.99Z",
+              "WhenOpened": "2024-09-27T12:29:32.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "Store.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:28:26.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormBase.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\FormBase.cs",
-              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\FormBase.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\FormBase.cs",
-              "RelativeToolTip": "StoreWinForm\\Forms\\FormBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T19:37:32.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\LoginForm.cs",
-              "RelativeToolTip": "StoreWinForm\\Forms\\LoginForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T19:33:39.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "StoreWinForm\\Forms\\MainForm.cs",
               "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\MainForm.cs",
               "RelativeToolTip": "StoreWinForm\\Forms\\MainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T19:36:10.786Z",
+              "WhenOpened": "2024-09-27T12:29:24.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "GroupRight.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\GroupRight.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\Entities\\GroupRight.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\GroupRight.cs",
-              "RelativeToolTip": "Store.Domain\\Entities\\GroupRight.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:28:25.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\Employee.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\Entities\\Employee.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\Employee.cs",
-              "RelativeToolTip": "Store.Domain\\Entities\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:28:22.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "Store.Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:28:20.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\Cart.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\Entities\\Cart.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\Cart.cs",
-              "RelativeToolTip": "Store.Domain\\Entities\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:28:23.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RightRole.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\RightRole.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\Entities\\RightRole.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\RightRole.cs",
-              "RelativeToolTip": "Store.Domain\\Entities\\RightRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:28:17.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\Role.cs",
-              "RelativeDocumentMoniker": "Store.Domain\\Entities\\Role.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\Store.Domain\\Entities\\Role.cs",
-              "RelativeToolTip": "Store.Domain\\Entities\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:28:15.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CartForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\CartForm.cs",
-              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\CartForm.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\CartForm.cs [Design]",
-              "RelativeToolTip": "StoreWinForm\\Forms\\CartForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T19:33:27.398Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\MainForm.cs",
-              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\MainForm.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\MainForm.cs [Design]",
-              "RelativeToolTip": "StoreWinForm\\Forms\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T19:36:08.944Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\LoginForm.cs [Design]",
-              "RelativeToolTip": "StoreWinForm\\Forms\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T19:33:36.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "FormBase.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\FormBase.cs",
-              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\FormBase.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\FormBase.cs [Design]",
-              "RelativeToolTip": "StoreWinForm\\Forms\\FormBase.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T19:33:35.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "EmployeeForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\EmployeeForm.cs",
-              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\EmployeeForm.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\EmployeeForm.cs [Design]",
-              "RelativeToolTip": "StoreWinForm\\Forms\\EmployeeForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T19:33:33.264Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 0,
               "Title": "CatalogForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\CatalogForm.cs",
               "RelativeDocumentMoniker": "StoreWinForm\\Forms\\CatalogForm.cs",
               "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\CatalogForm.cs [Design]",
               "RelativeToolTip": "StoreWinForm\\Forms\\CatalogForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T19:33:28.539Z",
+              "WhenOpened": "2024-09-27T12:28:52.614Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\EmployeeForm.cs",
+              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\EmployeeForm.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\EmployeeForm.cs [Design]",
+              "RelativeToolTip": "StoreWinForm\\Forms\\EmployeeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T12:28:51.152Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormBase.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\FormBase.cs",
+              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\FormBase.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\FormBase.cs [Design]",
+              "RelativeToolTip": "StoreWinForm\\Forms\\FormBase.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T12:28:48.785Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\LoginForm.cs [Design]",
+              "RelativeToolTip": "StoreWinForm\\Forms\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T12:28:47.74Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\RegisterForm.cs [Design]",
+              "RelativeToolTip": "StoreWinForm\\Forms\\RegisterForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T12:28:35.221Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "StoreWinForm\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\StoreWinForm\\StoreWinForm\\Forms\\MainForm.cs [Design]",
+              "RelativeToolTip": "StoreWinForm\\Forms\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T12:28:28.412Z",
               "EditorCaption": " [Design]"
             }
           ]
