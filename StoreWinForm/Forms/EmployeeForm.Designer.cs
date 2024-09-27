@@ -31,8 +31,8 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmployeeForm));
             label6 = new Label();
-            textBox1 = new TextBox();
-            button2 = new Button();
+            txtSearchBox = new TextBox();
+            btnSearch = new Button();
             btnAddEmployeeForm = new Button();
             dataGridEmployee = new DataGridView();
             roleIdDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
@@ -70,28 +70,29 @@
             label6.TabIndex = 10;
             label6.Text = "Сотрудники";
             // 
-            // textBox1
+            // txtSearchBox
             // 
-            textBox1.Location = new Point(791, 217);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(301, 23);
-            textBox1.TabIndex = 11;
+            txtSearchBox.Location = new Point(791, 217);
+            txtSearchBox.Name = "txtSearchBox";
+            txtSearchBox.Size = new Size(301, 23);
+            txtSearchBox.TabIndex = 11;
             // 
-            // button2
+            // btnSearch
             // 
-            button2.BackColor = Color.Transparent;
-            button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
-            button2.BackgroundImageLayout = ImageLayout.Stretch;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button2.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.ForeColor = Color.Transparent;
-            button2.Location = new Point(1106, 212);
-            button2.Name = "button2";
-            button2.Size = new Size(35, 33);
-            button2.TabIndex = 12;
-            button2.UseVisualStyleBackColor = false;
+            btnSearch.BackColor = Color.Transparent;
+            btnSearch.BackgroundImage = (Image)resources.GetObject("btnSearch.BackgroundImage");
+            btnSearch.BackgroundImageLayout = ImageLayout.Stretch;
+            btnSearch.FlatAppearance.BorderSize = 0;
+            btnSearch.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnSearch.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnSearch.FlatStyle = FlatStyle.Flat;
+            btnSearch.ForeColor = Color.Transparent;
+            btnSearch.Location = new Point(1106, 212);
+            btnSearch.Name = "btnSearch";
+            btnSearch.Size = new Size(35, 33);
+            btnSearch.TabIndex = 12;
+            btnSearch.UseVisualStyleBackColor = false;
+            btnSearch.Click += btnSearch_Click;
             // 
             // btnAddEmployeeForm
             // 
@@ -120,9 +121,7 @@
             dataGridEmployee.Name = "dataGridEmployee";
             dataGridEmployee.Size = new Size(1328, 667);
             dataGridEmployee.TabIndex = 21;
-            dataGridEmployee.CellBeginEdit += dataGridEmployee_CellBeginEdit;
             dataGridEmployee.CellClick += dataGridEmployee_CellClick;
-            dataGridEmployee.CellEndEdit += dataGridEmployee_CellEndEdit;
             // 
             // roleIdDataGridViewTextBoxColumn
             // 
@@ -262,8 +261,8 @@
             Controls.Add(btnExitEmployeeForm);
             Controls.Add(dataGridEmployee);
             Controls.Add(btnAddEmployeeForm);
-            Controls.Add(button2);
-            Controls.Add(textBox1);
+            Controls.Add(btnSearch);
+            Controls.Add(txtSearchBox);
             Controls.Add(label6);
             Name = "EmployeeForm";
             Text = "EmployeeForm";
@@ -278,8 +277,8 @@
         #endregion
 
         private Label label6;
-        private TextBox textBox1;
-        private Button button2;
+        private TextBox txtSearchBox;
+        private Button btnSearch;
         private Button btnAddEmployeeForm;
         private DataGridView dataGridEmployee;
         private BindingSource employeeBindingSource;

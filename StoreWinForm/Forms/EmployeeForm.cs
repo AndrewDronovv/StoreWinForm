@@ -18,13 +18,9 @@ namespace StoreWinFrom.Forms
             dataGridEmployee.ReadOnly = false;
             dataGridEmployee.EditMode = DataGridViewEditMode.EditOnEnter;
 
-            dataGridEmployee.CellBeginEdit += dataGridEmployee_CellBeginEdit;
-            dataGridEmployee.CellEndEdit += dataGridEmployee_CellEndEdit;
-
-
             dataGridEmployee.CellClick += dataGridEmployee_CellClick;
 
-            ShowColumnName();
+            InitColumnNames();
         }
 
         private void btnAddEmployeeForm_Click(object sender, EventArgs e)
@@ -37,7 +33,7 @@ namespace StoreWinFrom.Forms
             };
         }
 
-        public void ShowColumnName()
+        private void InitColumnNames()
         {
             //dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
             dataGridEmployee.Columns[0].HeaderText = "Id роли";
@@ -51,8 +47,8 @@ namespace StoreWinFrom.Forms
             dataGridEmployee.Columns[8].HeaderText = "Путь к фото";
             dataGridEmployee.Columns[9].HeaderText = "Логин";
             dataGridEmployee.Columns[10].HeaderText = "Пароль";
-            dataGridEmployee.Columns[11].Name = "Id";
             dataGridEmployee.Columns[8].Name = "PathToPhoto";
+            dataGridEmployee.Columns[11].Name = "Id";
         }
 
         private void btnExitEmployeeForm_Click(object sender, EventArgs e)
@@ -62,88 +58,36 @@ namespace StoreWinFrom.Forms
 
         private void btnDeleteEmployeeForm_Click(object sender, EventArgs e)
         {
-            if (dataGridEmployee.SelectedRows.Count > 0)
+            if (dataGridEmployee.SelectedRows.Count <= 0)
             {
-                DataGridViewRow selectedRow = dataGridEmployee.SelectedRows[0];
-                if (selectedRow.Cells["Id"].Value != null)
-                {
-                    try
-                    {
-                        int entityId = Convert.ToInt32(selectedRow.Cells["Id"].Value);
-
-                        dataGridEmployee.Rows.Remove(selectedRow);
-
-                        var entity = Context.Employees.Find(entityId);
-                        if (entity != null)
-                        {
-                            Context.Employees.Remove(entity);
-                            Context.SaveChanges();
-                        }
-                    }
-                    catch (Exception)
-                    {
-
-                        MessageBox.Show("Пожалуйста выберите строку для удаления");
-                    }
-                }
+                return;
             }
-        }
 
-        private void dataGridEmployee_CellBeginEdit(object sender, DataGridViewCellCancelEventArgs e)
-        {
-            var cellValue = dataGridEmployee.Rows[e.RowIndex].Cells[e.ColumnIndex].Value;
-        }
-
-        private void dataGridEmployee_CellEndEdit(object sender, DataGridViewCellEventArgs e)
-        {
-            object newValue = dataGridEmployee.Rows[e.RowIndex].Cells[e.ColumnIndex].Value;
-
-            int employeeId = (int)dataGridEmployee.Rows[e.RowIndex].Cells["Id"].Value;
-
-
-            var employee = Context.Employees.Find(employeeId);
-            if (employeeId != null)
+            DataGridViewRow selectedRow = dataGridEmployee.SelectedRows[0];
+            if (selectedRow.Cells["Id"].Value == null)
             {
-                if (dataGridEmployee.Columns[e.ColumnIndex].Name == "Name")
-                {
-                    employee.Name = newValue.ToString();
-                }
-                else if (dataGridEmployee.Columns[e.ColumnIndex].Name == "Lastname")
-                {
-                    employee.LastName = newValue.ToString();
-                }
-                else if (dataGridEmployee.Columns[e.ColumnIndex].Name == "Patronymic")
-                {
-                    employee.Patronymic = newValue.ToString();
-                }
-                //else if (dataGridEmployee.Columns[e.ColumnIndex].Name == "DateOnly")
-                //{
-                //    employee.DateOnly = newValue;
-                //}
-                //else if (dataGridEmployee.Columns[e.ColumnIndex].Name == "RoleId")
-                //{
-                //    employee.RoleId = newValue;
-                //}
-                else if (dataGridEmployee.Columns[e.ColumnIndex].Name == "Phone")
-                {
-                    employee.Phone = newValue.ToString();
-                }
-                else if (dataGridEmployee.Columns[e.ColumnIndex].Name == "PathToPhoto")
-                {
-                    employee.PathToPhoto = newValue.ToString();
-                }
-                else if (dataGridEmployee.Columns[e.ColumnIndex].Name == "Username")
-                {
-                    employee.Username = newValue.ToString();
-                }
-                else if (dataGridEmployee.Columns[e.ColumnIndex].Name == "Password")
-                {
-                    employee.Password = newValue.ToString();
-                }
+                return;
+            }
+
+
+
+            int entityId = Convert.ToInt32(selectedRow.Cells["Id"].Value);
+            dataGridEmployee.Rows.Remove(selectedRow);
+            var entity = Context.Employees.Find(entityId);
+
+            if (entity != null)
+            {
+                Context.Employees.Remove(entity);
                 Context.SaveChanges();
             }
-        }
+        }      
 
+
+        /*
+         * В зависимости какая строка в datagridview выбрана, 
+         * считывает путь в столбце PathToPhoto и при помощи метода ShowImage
+         * отображает фото
+         */
         private void dataGridEmployee_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0 && e.RowIndex <= dataGridEmployee.Rows.Count)
@@ -160,6 +104,9 @@ namespace StoreWinFrom.Forms
             }
         }
 
+        /*
+         * Метод отображает фото сотрудника в picturebox
+         */
         private void ShowImage(string imagePath)
         {
             if (!string.IsNullOrEmpty(imagePath) && File.Exists(imagePath))
@@ -168,6 +115,29 @@ namespace StoreWinFrom.Forms
 
                 pictureBox1.Image = null;
                 pictureBox1.Image = image;
+            }
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            string searchEmployee = txtSearchBox.Text;
+
+            var employeeSearched = Context.Employees.Where(p => p.LastName.Contains(searchEmployee)).ToList();
+
+            foreach (var employee in employeeSearched)
+            {
+                MessageBox.Show($"{employee.LastName}");
+
+                foreach (DataGridViewRow row in dataGridEmployee.Rows)
+                {
+                    if (row.Cells["Id"].Value != null && (int)row.Cells["Id"].Value == employee.Id)
+                    {
+                        row.Selected = false;
+                        row.Selected = true;
+                        dataGridEmployee.FirstDisplayedScrollingRowIndex = row.Index;
+                        break;
+                    }
+                }
             }
         }
     }

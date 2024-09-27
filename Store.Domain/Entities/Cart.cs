@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Store.Domain.Entities
 {
     public class Cart : Entity
     {
         public int EmployeeId { get; set; }
-        
+
         [ForeignKey(nameof(EmployeeId))]
         public Employee Employee { get; set; }
         public decimal Price { get; set; }

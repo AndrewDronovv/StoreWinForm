@@ -2,7 +2,7 @@
 
 namespace Store.Domain.Seeds
 {
-    internal class EmployeeSeed : BaseSeed
+    public class EmployeeSeed : BaseSeed
     {
         public EmployeeSeed(AppDbContext context) : base(context)
         {

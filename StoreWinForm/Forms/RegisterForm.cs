@@ -1,6 +1,7 @@
 ﻿using Store.Domain;
 using Store.Domain.Entities;
 using StoreWinForm.Forms;
+using System.Text.RegularExpressions;
 
 namespace StoreWinFrom.Forms
 {
@@ -29,45 +30,32 @@ namespace StoreWinFrom.Forms
             string username = txtUserName.Text;
             string password = txtPassword.Text;
 
-            if (string.IsNullOrWhiteSpace(lastname))
+            if (string.IsNullOrWhiteSpace(lastname) || (string.IsNullOrWhiteSpace(name) || roleid == 0 || 
+                string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password)))
             {
                 txtLastName.BackColor = Color.LightGoldenrodYellow;
-                MessageBox.Show("Заполните фамилию сотрудника", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                return;
-            }
-
-            if (string.IsNullOrWhiteSpace(name))
-            {
                 txtName.BackColor = Color.LightGoldenrodYellow;
-                MessageBox.Show("Заполните имя сотрудника", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                cmbRole.BackColor = Color.LightGoldenrodYellow;
+                txtUserName.BackColor = Color.LightGoldenrodYellow;
+                txtPassword.BackColor = Color.LightGoldenrodYellow;
+                MessageBox.Show("Заполните все подсвеченные поля", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
 
             if (dateChanged == false)
             {
                 pickerDateOfBirth.CalendarForeColor = Color.LightGoldenrodYellow;
-                MessageBox.Show("Дата не была изменена", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Заполните поле дата рождения", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
 
-            if (roleid == 0)
+            string pattern = @"^[a-zA-Z0-9]*$";
+            if (!Regex.IsMatch(username, pattern) || !Regex.IsMatch(password, pattern))
             {
-                cmbRole.BackColor = Color.LightGoldenrodYellow;
-                MessageBox.Show("Заполните роль сотрудника", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                return;
-            }
-
-            if (string.IsNullOrWhiteSpace(username))
-            {
-                txtUserName.BackColor = Color.LightGoldenrodYellow;
-                MessageBox.Show("Заполните логин пользователя", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                return;
-            }
-
-            if (string.IsNullOrWhiteSpace(password))
-            {
+                MessageBox.Show("Логин и пароль содержит \nтолько английские буквы и цифры.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txtUserName.Text = Regex.Replace(username, "[^a-zA-Z0-9]", "");
+                txtPassword.Text = Regex.Replace(password, "[^a-zA-Z0-9]", "");
                 txtPassword.BackColor = Color.LightGoldenrodYellow;
-                MessageBox.Show("Заполните необходимые поля", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
 
@@ -97,16 +85,6 @@ namespace StoreWinFrom.Forms
         }
 
         /*
-         * Ищет в бд id роли в зависимости какую выбрали
-         */
-        //private void cmbRole_SelectedIndexChanged(object sender, EventArgs e)
-        //{
-        //    int roleid = (int)cmbRole.SelectedIndex;
-        //    Role role = Context.Roles.Find(roleid);
-        //    Context.Roles.Find(roleid);
-        //}
-
-        /*
          * Метод который отображает в комбобокс роли сотрудников
          */
         public void ShowEployeeRole()
@@ -118,7 +96,10 @@ namespace StoreWinFrom.Forms
                 cmbRole.Items.Add(role.Name);
             }
         }
-
+        /*
+         * Позволяет выбрать фото сотрудника, применяя шаблон расширений файлов, сохраняет 
+         * в переменную путь до файла
+         */
         private void btnAddPhoto_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
